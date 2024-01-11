@@ -1,0 +1,115 @@
+:root {
+   --main-orange: #FFA02A;
+   /* --main-brown: #FFA02A; */
+}
+
+*{
+    font-family : Montserrat;
+}
+
+h3{
+    font-family: DaysOne;
+    font-size: 36px;
+}
+
+
+.nav-top{
+    height: 118px;
+}
+
+.logo-wrapp{
+    font-weight: 600 !important;
+}
+
+.link-wrapp{
+    font-size: 18px !important;
+}
+
+
+.logo-wrapp .logo{
+    width: 99px;
+    height:42px;
+    font-family : Inter !important;
+    font-size: 35px;
+    line-height: 42px;
+}
+
+.page-1{
+    /* фото главное + туман*/
+    background: linear-gradient(100.85deg, #FFFFFF 17.44%, rgba(255, 255, 255, 0) 83.99%),
+                url('../img/foto-glavnoe.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.page-1-h1{
+    font-family: DaysOne !important;
+    font-size: 42px;
+    font-weight: 400 !important;
+}
+
+.page-1-h1 span{
+    color: var(--main-orange) !important;
+    font-weight: bold !important;
+}
+
+.page-1-h2{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.yellow-button{
+    width: 386px;
+    height: 84px;
+    padding: 28px;
+    border-radius: 6px;
+    background: linear-gradient(83.62deg, #FFB75E -4.52%, #FFB75E 15.25%, #FFC884 45.62%, #FFB75E 80.23%, #FFB75E 100.5%);
+    box-shadow: 0px 4px 0px 0px #E29A41, 0px 0px 16px 14px #FFB75E47;
+    color: white;
+    border: none;
+
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.gray-button{
+    width: 386px;
+    height: 84px;
+    padding: 28px;
+    border-radius: 6px;
+    background: linear-gradient(267.3deg, #595959 2%, #797979 50.78%, #595959 92.93%);
+    color: white;
+    border: none;
+    
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 22px;
+
+}
+
+.tel-feedback-form{
+    width: 940px;
+    height: 297px;
+    padding-top: 68px;
+    padding-bottom: 68px;
+    padding-left: 40px;
+    border-radius: 6px;
+    background: #FFFFFF36;
+    border: 1px solid;
+    border-left: 8px solid;
+    border-color: var(--main-orange); 
+}
+
+.tel-feedback-form p{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.tel-feedback-form input[type='text']{
+    width: 365px;
+    height: 84px;
+    border-radius: 6px;
+    border: 1px solid;
+    font-size: 18px;
+}
+
