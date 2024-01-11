@@ -34,7 +34,7 @@ h3{
     line-height: 42px;
 }
 
-.page-1{
+.page-1-bg{
     /* фото главное + туман*/
     background: linear-gradient(100.85deg, #FFFFFF 17.44%, rgba(255, 255, 255, 0) 83.99%),
                 url('../img/foto-glavnoe.jpg');
@@ -113,3 +113,20 @@ h3{
     font-size: 18px;
 }
 
+/* СТРАНИЦА 2 */
+.page-2-bg{
+    background: url('../img/fon2blok.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-position: 0 0; */
+}
+.page-2-info{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 46px 30px;
+    border-left: 4px solid rgb(89,89,89);
+    border-top: 1px solid var(--main-orange);
+    border-right: 1px solid var(--main-orange);
+    border-bottom: 1px solid var(--main-orange);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+}
