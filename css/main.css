@@ -117,14 +117,14 @@ h3{
     font-size: 18px;
 }
 
-/* СТРАНИЦА 2 */
+/* БЛОК 2 */
 .page-2-bg{
-    background: url('../img/fon2blok.jpg');
+    background: url('../img/fon2block.jpg');
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     /* background-position: 0 0; */
 }
-.page-2-info{
+.page-2-info, .page3-info{
     font-size: 25px;
     font-weight: 500;
     padding: 46px 30px;
@@ -143,8 +143,8 @@ h3{
 }
 
 .page-2-h3{
-    font-size:23px !important;  
-    margin-top: 25% !important;
+    font-size:23px !important;
+    /* padding-top: 30%; */
 }
 
 .big-digit{
@@ -178,14 +178,14 @@ h3{
     color: white;
 }
 
-/* СТРАНИЦА 3 */
+/* БЛОК 3 */
 h4{
     font-family: Montserrat;
     font-size: 24px;
     font-weight: 600;
 }
 
-.decorator{
+.bottom-decorator{
     border-bottom: 3px solid var(--main-orange);
 }
 .orange-span span
@@ -197,4 +197,25 @@ h4{
     font-family: Montserrat;
     font-size: 17px;
     font-weight: 400;
+}
+
+.left-decorator{
+    border-left: 2px solid var(--main-orange);
+}
+
+/* БЛОК 4 */
+.page-4-bg{
+    background: url('../img/fon4block.jpg');
+    background-size: contain;
+    background-repeat: repeat-y;
+}
+/* .page3-border{
+    border: 1px solid var(--main-orange);
+ } */
+
+/* БЛОК 6 */
+.block-6-bg{
+    background: url('../img/fon6block.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
