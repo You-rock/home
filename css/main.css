@@ -12,6 +12,10 @@ h3{
     font-size: 36px;
 }
 
+.main-orange{
+    color: var(--main-orange);
+}
+
 
 .nav-top{
     height: 118px;
@@ -129,4 +133,68 @@ h3{
     border-right: 1px solid var(--main-orange);
     border-bottom: 1px solid var(--main-orange);
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+}
+
+.page-2-bottom{
+    background: url('../img/fon2block-bottom.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.page-2-h3{
+    font-size:23px !important;  
+    margin-top: 25% !important;
+}
+
+.big-digit{
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 59px;
+    color: var(--main-orange);
+}
+
+.inf-span{
+    font-size: 18px;
+}
+
+.inf-p{
+    margin-top: 12px;
+    font-weight: 600;
+    border-left: 2px solid var(--main-orange);
+    width: 25%;
+}
+
+
+.inf-p-e{
+    border-right: 2px solid var(--main-orange);
+}
+
+.ribbon-p{
+    font-family: DaysOne;
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+}
+
+/* СТРАНИЦА 3 */
+h4{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.decorator{
+    border-bottom: 3px solid var(--main-orange);
+}
+.orange-span span
+{
+    color: var(--main-orange) !important; 
+}
+
+.p-3-inf{
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 400;
 }
