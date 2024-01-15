@@ -206,7 +206,7 @@ h4{
 /* БЛОК 4 */
 .page-4-bg{
     background: url('../img/fon4block.jpg');
-    background-size: contain;
+    background-size: cover;
     background-repeat: repeat-y;
 }
 /* .page3-border{
@@ -218,4 +218,60 @@ h4{
     background: url('../img/fon6block.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.block-7-bg{
+    background: url('../img/fon7block.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.foto-grid{
+    display: grid;
+    gap: 20px;
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows:repeat(2,1fr);
+}
+
+.page-7-info{
+    font-size: 19px;
+    font-weight: 500;
+    padding: 46px 30px;
+    border-left: 1px solid var(--main-orange);
+    border-top: 1px solid var(--main-orange);
+    border-right: 1px solid var(--main-orange);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+}
+
+.top-bottom-decorator{
+    border-top: 3px solid var(--main-orange);
+    border-bottom: 3px solid var(--main-orange);
+
+}
+
+.block-8-bg{
+    background: url('../img/fon8block.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.black-button{
+    padding: 25px 50px;
+    border-radius: 6px;
+    background: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+
+    border: 2px solid var(--main-orange);
+}
+
+.footer-link{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 144.795%; /* 26.063px */
+    font-variant: small-caps;
+    text-decoration: none;
 }
